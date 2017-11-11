@@ -61,7 +61,7 @@
 /******/ 	
 /******/ 	
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "55cb689be76779f04dca"; // eslint-disable-line no-unused-vars
+/******/ 	var hotCurrentHash = "3760b5798306539acf67"; // eslint-disable-line no-unused-vars
 /******/ 	var hotRequestTimeout = 10000;
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentChildModule; // eslint-disable-line no-unused-vars
@@ -31745,18 +31745,18 @@ var App = function (_Component) {
         null,
         _react2.default.createElement(
           "h1",
-          null,
+          { "class": "welcome" },
           "Hello From The App Component"
         ),
         _react2.default.createElement(
           "h2",
-          null,
+          { "class": "welcome" },
           "Write the html like you normally would in this file"
         ),
         _react2.default.createElement("br", null),
         _react2.default.createElement(
           "header",
-          null,
+          { "class": "welcome" },
           _react2.default.createElement(
             "u",
             null,
@@ -31769,7 +31769,7 @@ var App = function (_Component) {
         ),
         _react2.default.createElement(
           "ol",
-          null,
+          { "class": "welcome" },
           _react2.default.createElement(
             "li",
             null,

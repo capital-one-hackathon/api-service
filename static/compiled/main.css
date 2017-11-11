@@ -1,0 +1,54 @@
+body{
+  background-color: dodgerblue;
+}
+
+img.start-giffy{
+  display: block;
+  position: relative;
+  margin: 0 auto;
+  border: groove 4px #008080;
+  border-radius: 50px;
+}
+
+.start-giffy{
+  display: block;
+  position: relative;
+  margin: 0 auto;
+  border: groove 4px #008080;
+  border-radius: 50px;
+}
+
+.welcome{
+  display: block;
+  position: relative;
+  margin: 0 auto;
+  text-align: center;
+}
+
+h1.welcome{
+  display: block;
+  position: relative;
+  margin: 0 auto;
+  text-align: center;
+}
+
+h2.welcome{
+  display: block;
+  position: relative;
+  margin: 0 auto;
+  text-align: center;
+}
+
+header.welcome{
+  display: block;
+  position: relative;
+  margin: 0 auto;
+  text-align: center;
+}
+
+ol.welcome{
+  display: block;
+  position: relative;
+  margin: 0 auto;
+  text-align: center;
+}

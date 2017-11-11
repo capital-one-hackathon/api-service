@@ -16,11 +16,11 @@ class App extends Component {
   render(){
     return(
       <div>
-        <h1>Hello From The App Component</h1>
-        <h2>Write the html like you normally would in this file</h2>
+        <h1 class="welcome">Hello From The App Component</h1>
+        <h2 class="welcome">Write the html like you normally would in this file</h2>
         <br/>
-        <header><u><b>To design and/or style components: </b></u></header>
-        <ol>
+        <header class="welcome"><u><b>To design and/or style components: </b></u></header>
+        <ol class="welcome">
           <li>Go to the static/src/css/main.css file and include your css styles in there.</li>
           <li>It's already loaded once the index.html file is served with the server and all the assets will be precompiled</li>
           <li>All compiled assets could be found inside the static/compiled/bundles.js file</li>
