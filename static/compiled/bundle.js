@@ -61,7 +61,7 @@
 /******/ 	
 /******/ 	
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "3c67ffce4f4befb011d1"; // eslint-disable-line no-unused-vars
+/******/ 	var hotCurrentHash = "55cb689be76779f04dca"; // eslint-disable-line no-unused-vars
 /******/ 	var hotRequestTimeout = 10000;
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentChildModule; // eslint-disable-line no-unused-vars
@@ -31732,16 +31732,73 @@ var App = function (_Component) {
   }
 
   _createClass(App, [{
-    key: 'render',
+    key: "componentDidMount",
+    value: function componentDidMount() {
+      console.log("HELLO THIS FUNCTION FIRES OFF FIRSTH THING ONCE THE COMPONENT LOADS UP");
+      console.log("DON'T WORRY ABOUT STATE MANAGEMENT ON THE CLIENT SIDE IF WE NEED TO PARSE AN API RESPONSE FROM THE SERVER, I'LL TAKE CARE OF IT :). LET ME KNOW IF YOU WOULD LIKE TO LEARN. IT'S SIMPLE STUFF...");
+    }
+  }, {
+    key: "render",
     value: function render() {
       return _react2.default.createElement(
-        'div',
+        "div",
         null,
         _react2.default.createElement(
-          'h1',
+          "h1",
           null,
-          'Hello From The App Component'
-        )
+          "Hello From The App Component"
+        ),
+        _react2.default.createElement(
+          "h2",
+          null,
+          "Write the html like you normally would in this file"
+        ),
+        _react2.default.createElement("br", null),
+        _react2.default.createElement(
+          "header",
+          null,
+          _react2.default.createElement(
+            "u",
+            null,
+            _react2.default.createElement(
+              "b",
+              null,
+              "To design and/or style components: "
+            )
+          )
+        ),
+        _react2.default.createElement(
+          "ol",
+          null,
+          _react2.default.createElement(
+            "li",
+            null,
+            "Go to the static/src/css/main.css file and include your css styles in there."
+          ),
+          _react2.default.createElement(
+            "li",
+            null,
+            "It's already loaded once the index.html file is served with the server and all the assets will be precompiled"
+          ),
+          _react2.default.createElement(
+            "li",
+            null,
+            "All compiled assets could be found inside the static/compiled/bundles.js file"
+          ),
+          _react2.default.createElement(
+            "li",
+            null,
+            "To give a html element a class name give an html/jsx element className=\"your-class-name\" instead of class=\"your-class-name\""
+          ),
+          _react2.default.createElement(
+            "li",
+            null,
+            "giving an id=\"your-id-name\" still works as per usual :)"
+          )
+        ),
+        _react2.default.createElement("br", null),
+        _react2.default.createElement("hr", null),
+        _react2.default.createElement("img", { className: "start-giffy", src: "https://media1.tenor.com/images/423d66fd268facb84cf2c3d5e789e75a/tenor.gif?itemid=3556677", alt: "goodLuck" })
       );
     }
   }]);
