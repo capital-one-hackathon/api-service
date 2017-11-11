@@ -61,7 +61,7 @@
 /******/ 	
 /******/ 	
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "3760b5798306539acf67"; // eslint-disable-line no-unused-vars
+/******/ 	var hotCurrentHash = "4256309d8148121b7f3f"; // eslint-disable-line no-unused-vars
 /******/ 	var hotRequestTimeout = 10000;
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentChildModule; // eslint-disable-line no-unused-vars
@@ -31734,7 +31734,7 @@ var App = function (_Component) {
   _createClass(App, [{
     key: "componentDidMount",
     value: function componentDidMount() {
-      console.log("HELLO THIS FUNCTION FIRES OFF FIRSTH THING ONCE THE COMPONENT LOADS UP");
+      console.log("HELLO THIS FUNCTION FIRES OFF FIRST THING ONCE THE COMPONENT LOADS UP");
       console.log("DON'T WORRY ABOUT STATE MANAGEMENT ON THE CLIENT SIDE IF WE NEED TO PARSE AN API RESPONSE FROM THE SERVER, I'LL TAKE CARE OF IT :). LET ME KNOW IF YOU WOULD LIKE TO LEARN. IT'S SIMPLE STUFF...");
     }
   }, {
@@ -31773,7 +31773,7 @@ var App = function (_Component) {
           _react2.default.createElement(
             "li",
             null,
-            "Go to the static/src/css/main.css file and include your css styles in there."
+            "Go to the static/compiled/main.css file and include your css styles in there."
           ),
           _react2.default.createElement(
             "li",
@@ -31783,7 +31783,7 @@ var App = function (_Component) {
           _react2.default.createElement(
             "li",
             null,
-            "All compiled assets could be found inside the static/compiled/bundles.js file"
+            "All compiled assets could be found inside the static/compiled directory"
           ),
           _react2.default.createElement(
             "li",
@@ -31793,7 +31793,7 @@ var App = function (_Component) {
           _react2.default.createElement(
             "li",
             null,
-            "giving an id=\"your-id-name\" still works as per usual :)"
+            "Giving an id=\"your-id-name\" still works as per usual :)"
           )
         ),
         _react2.default.createElement("br", null),

@@ -7,7 +7,7 @@ class App extends Component {
   }
 
   componentDidMount(){
-    console.log("HELLO THIS FUNCTION FIRES OFF FIRSTH THING ONCE THE COMPONENT LOADS UP");
+    console.log("HELLO THIS FUNCTION FIRES OFF FIRST THING ONCE THE COMPONENT LOADS UP");
     console.log("DON'T WORRY ABOUT STATE MANAGEMENT ON THE CLIENT SIDE IF WE NEED TO PARSE AN API RESPONSE FROM THE SERVER, I'LL TAKE CARE OF IT :). LET ME KNOW IF YOU WOULD LIKE TO LEARN. IT'S SIMPLE STUFF...");
   }
 
@@ -21,11 +21,11 @@ class App extends Component {
         <br/>
         <header class="welcome"><u><b>To design and/or style components: </b></u></header>
         <ol class="welcome">
-          <li>Go to the static/src/css/main.css file and include your css styles in there.</li>
+          <li>Go to the static/compiled/main.css file and include your css styles in there.</li>
           <li>It's already loaded once the index.html file is served with the server and all the assets will be precompiled</li>
-          <li>All compiled assets could be found inside the static/compiled/bundles.js file</li>
+          <li>All compiled assets could be found inside the static/compiled directory</li>
           <li>To give a html element a class name give an html/jsx element className="your-class-name" instead of class="your-class-name"</li>
-          <li>giving an id="your-id-name" still works as per usual :)</li>
+          <li>Giving an id="your-id-name" still works as per usual :)</li>
         </ol>
         <br/>
         <hr/>
