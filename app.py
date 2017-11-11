@@ -5,7 +5,7 @@ import os
 
 load_dotenv(find_dotenv(), override=True)
 
-app = Flask(__name__)
+app = Flask(__name__, static_folder="./static/compiled", template_folder="./static")
 
 app.config['SQLALCHEMY_DATABASE_URI'] = os.environ.get("PSQLURL")
 
